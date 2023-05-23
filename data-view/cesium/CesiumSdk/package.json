@@ -1,0 +1,13 @@
+{
+  "name": "cesium-sdk",
+  "version": "1.0.0",
+  "description": "CesiumSdk",
+  "main": "main.js",
+  "author": {
+    "name": "yhk"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "mars3d": "^3.1.13"
+  }
+}

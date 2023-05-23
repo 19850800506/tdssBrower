@@ -1,0 +1,68 @@
+{
+  "name": "TdssSituation",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@jiaminghi/data-view": "^2.7.3",
+    "@types/echarts": "^4.4.3",
+    "axios": "0.21.0",
+    "crypto-js": "^3.1.9-1",
+    "cesium-sdk": "file:./data-view/cesium/CesiumSdk",
+    "copy-webpack-plugin": "^6.4.1",
+    "core-js": "^3.6.4",
+    "echarts": "^4.4.3",
+    "element-ui": "2.15.0",
+    "js-cookie": "2.2.1",
+    "jsencrypt": "^3.2.1",
+    "mars3d": "^3.1.13",
+    "mars3d-echarts": "^3.3.12",
+    "nprogress": "0.2.0",
+    "screenfull": "^6.0.2",
+    "vue": "^2.6.11",
+    "vue-awesome": "^4.0.2",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^5.0.1",
+    "@vue/cli-service": "^4.2.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^9.1.1",
+    "lint-staged": "10.5.3",
+    "prettier": "^2.2.1",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

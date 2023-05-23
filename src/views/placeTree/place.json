@@ -1,0 +1,730 @@
+{
+  "data": [
+      {
+          "name": "池州防区",
+          "positions": [
+              {
+                  "place": "池州市**营区",
+                  "data": [
+                      {
+                          "count": 0,
+                          "name": "雷达",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "声纹",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "AOA",
+                          "data": [
+                              {
+                                  "id": "1090101002000121",
+                                  "name": "AOA设备",
+                                  "longitude": 117.89791646,
+                                  "latitude": 30.69629216,
+                                  "type": "aoa",
+                                  "effect": 0,
+                                  "altitude": 100
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "TDOA",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "定向",
+                          "data": [
+                              {
+                                  "id": "1090000001000731",
+                                  "name": "120度面阵",
+                                  "longitude": 117.89791646,
+                                  "latitude": 30.69629216,
+                                  "type": "direct",
+                                  "effect": 0,
+                                  "altitude": 100
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "全向",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "协议破解",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "视频",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "诱导",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "周扫",
+                          "data": [
+                              {
+                                  "id": "1090000001000315",
+                                  "name": "周扫设备",
+                                  "longitude": 117.89791646,
+                                  "latitude": 30.69629216,
+                                  "type": "circular",
+                                  "effect": 0,
+                                  "altitude": 0
+                              }
+                          ]
+                      },
+                      {
+                          "count": 1,
+                          "name": "转台",
+                          "data": [
+                              {
+                                  "id": "1090009001000161",
+                                  "name": "面阵转台",
+                                  "longitude": 117.89791646,
+                                  "latitude": 30.69629216,
+                                  "type": "turntable",
+                                  "effect": 0,
+                                  "altitude": 100
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "大兴防区",
+          "positions": [
+              {
+                  "place": "奥林匹克塔",
+                  "data": [
+                      {
+                          "count": 0,
+                          "name": "雷达",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "声纹",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "AOA",
+                          "data": [
+                              {
+                                  "id": "1090101002000433",
+                                  "name": "AOA",
+                                  "longitude": 116.388234,
+                                  "latitude": 40.007164,
+                                  "type": "aoa",
+                                  "effect": 3000,
+                                  "altitude": 100
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "TDOA",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "定向",
+                          "data": [
+                              {
+                                  "id": "1090000001000939",
+                                  "name": "120度面阵打击",
+                                  "longitude": 116.388234,
+                                  "latitude": 40.007164,
+                                  "type": "direct",
+                                  "effect": 0,
+                                  "altitude": 100
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "全向",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "协议破解",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "视频",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "诱导",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "周扫",
+                          "data": [
+                              {
+                                  "id": "1090010001000114",
+                                  "name": "周扫设备",
+                                  "longitude": 116.388234,
+                                  "latitude": 40.007164,
+                                  "type": "circular",
+                                  "effect": 0,
+                                  "altitude": 100
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "转台",
+                          "data": []
+                      }
+                  ]
+              },
+              {
+                  "place": "公大团河校区",
+                  "data": [
+                      {
+                          "count": 0,
+                          "name": "雷达",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "声纹",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "AOA",
+                          "data": []
+                      },
+                      {
+                          "count": 4,
+                          "name": "TDOA",
+                          "data": [
+                              {
+                                  "id": "1090004001000963",
+                                  "name": "tdoa-1",
+                                  "longitude": 116.3670093249,
+                                  "latitude": 39.7800987951,
+                                  "type": "tdoa",
+                                  "effect": 3000,
+                                  "altitude": 10
+                              },
+                              {
+                                  "id": "1090004001001028",
+                                  "name": "tdoa-2",
+                                  "longitude": 116.3724984936,
+                                  "latitude": 39.7666292266,
+                                  "type": "tdoa",
+                                  "effect": 3000,
+                                  "altitude": 10
+                              },
+                              {
+                                  "id": "1090004001001132",
+                                  "name": "tdoa-3",
+                                  "longitude": 116.3627973099,
+                                  "latitude": 39.7673068588,
+                                  "type": "tdoa",
+                                  "effect": 3000,
+                                  "altitude": 10
+                              },
+                              {
+                                  "id": "1090004001001236",
+                                  "name": "tdoa-4",
+                                  "longitude": 116.3530133686,
+                                  "latitude": 39.7816964766,
+                                  "type": "tdoa",
+                                  "effect": 3000,
+                                  "altitude": 10
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "定向",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "全向",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "协议破解",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "视频",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "诱导",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "周扫",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "转台",
+                          "data": []
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "上海防区",
+          "positions": [
+              {
+                  "place": "上海普陀区",
+                  "data": [
+                      {
+                          "count": 0,
+                          "name": "雷达",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "声纹",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "AOA",
+                          "data": []
+                      },
+                      {
+                          "count": 4,
+                          "name": "TDOA",
+                          "data": [
+                              {
+                                  "id": "1090004001000131",
+                                  "name": "tdoa1_1",
+                                  "longitude": 121.39782071113586,
+                                  "latitude": 31.2556520017837,
+                                  "type": "tdoa",
+                                  "effect": 1000,
+                                  "altitude": 100,
+                                  "group": "gone"
+                              },
+                              {
+                                  "id": "1090004001000235",
+                                  "name": "tdoa1_2",
+                                  "longitude": 121.4035606384277,
+                                  "latitude": 31.25415700933122,
+                                  "type": "tdoa",
+                                  "effect": 1000,
+                                  "altitude": 105,
+                                  "group": "gone"
+                              },
+                              {
+                                  "id": "1090004001000339",
+                                  "name": "tdoa1_3",
+                                  "longitude": 121.398110389709,
+                                  "latitude": 31.2508184131126,
+                                  "type": "tdoa",
+                                  "effect": 1000,
+                                  "altitude": 102,
+                                  "group": "gone"
+                              },
+                              {
+                                  "id": "1090004001000443",
+                                  "name": "tdoa1_4",
+                                  "longitude": 121.4039361476898,
+                                  "latitude": 31.25122198596147,
+                                  "type": "tdoa",
+                                  "effect": 1000,
+                                  "altitude": 105,
+                                  "group": "gone"
+                              }
+                          ]
+                      },
+                      {
+                          "count": 1,
+                          "name": "定向",
+                          "data": [
+                              {
+                                  "id": "1090000001001004",
+                                  "name": "120度面阵",
+                                  "longitude": 121.4014256000518,
+                                  "latitude": 31.2530747300832,
+                                  "type": "direct",
+                                  "effect": 1000,
+                                  "altitude": 200
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "全向",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "协议破解",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "视频",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "诱导",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "周扫",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "转台",
+                          "data": []
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "博鳌防区",
+          "data": [
+              {
+                  "name": "博鳌机场",
+                  "data": [
+                      {
+                          "count": 0,
+                          "name": "雷达",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "声纹",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "AOA",
+                          "data": [
+                              {
+                                  "id": "1090003001000125",
+                                  "name": "博鳌机场AOA",
+                                  "longitude": 110.462249,
+                                  "latitude": 19.140181,
+                                  "type": "aoa",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "TDOA",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "定向",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "全向",
+                          "data": [
+                              {
+                                  "id": "1090006001000143",
+                                  "name": "博鳌机场全向打击",
+                                  "longitude": 110.462249,
+                                  "latitude": 19.140181,
+                                  "type": "omni",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "协议破解",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "视频",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "诱导",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "周扫",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "转台",
+                          "data": []
+                      }
+                  ]
+              },
+              {
+                  "name": "博鳌检查站",
+                  "data": [
+                      {
+                          "count": 0,
+                          "name": "雷达",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "声纹",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "AOA",
+                          "data": [
+                              {
+                                  "id": "1090003001000229",
+                                  "name": "翁坎检查站AOA",
+                                  "longitude": 110.522132,
+                                  "latitude": 19.117242,
+                                  "type": "aoa",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "TDOA",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "定向",
+                          "data": []
+                      },
+                      {
+                          "count": 1,
+                          "name": "全向",
+                          "data": [
+                              {
+                                  "id": "1090006001000247",
+                                  "name": "翁坎检查站全向打击",
+                                  "longitude": 110.522132,
+                                  "latitude": 19.117242,
+                                  "type": "omni",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "协议破解",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "视频",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "诱导",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "周扫",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "转台",
+                          "data": []
+                      }
+                  ]
+              },
+              {
+                  "name": "博鳌核心区",
+                  "data": [
+                      {
+                          "count": 0,
+                          "name": "雷达",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "声纹",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "AOA",
+                          "data": []
+                      },
+                      {
+                          "count": 4,
+                          "name": "TDOA",
+                          "data": [
+                              {
+                                  "id": "1090004001000547",
+                                  "name": "国宾馆五号楼TDOA",
+                                  "longitude": 110.55635,
+                                  "latitude": 19.137963,
+                                  "type": "tdoa",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              },
+                              {
+                                  "id": "1090004001000651",
+                                  "name": "国宾馆一号楼TDOA",
+                                  "longitude": 110.553383,
+                                  "latitude": 19.13866,
+                                  "type": "tdoa",
+                                  "effect": 3000,
+                                  "altitude": 30
+                              },
+                              {
+                                  "id": "1090004001000755",
+                                  "name": "美丽熙海岸TDOA",
+                                  "longitude": 110.574661,
+                                  "latitude": 19.164754,
+                                  "type": "tdoa",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              },
+                              {
+                                  "id": "1090004001000859",
+                                  "name": "冬屿岛大酒店TDOA",
+                                  "longitude": 110.573793,
+                                  "latitude": 19.143397,
+                                  "type": "tdoa",
+                                  "effect": 3000,
+                                  "altitude": 10
+                              }
+                          ]
+                      },
+                      {
+                          "count": 1,
+                          "name": "定向",
+                          "data": [
+                              {
+                                  "id": "1090005001000137",
+                                  "name": "国宾馆五号楼定向打击",
+                                  "longitude": 110.556215,
+                                  "latitude": 19.13787,
+                                  "type": "direct",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              }
+                          ]
+                      },
+                      {
+                          "count": 2,
+                          "name": "全向",
+                          "data": [
+                              {
+                                  "id": "1090006001000351",
+                                  "name": "国宾馆一号楼全向打击",
+                                  "longitude": 110.553383,
+                                  "latitude": 19.13866,
+                                  "type": "omni",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              },
+                              {
+                                  "id": "1090006001000455",
+                                  "name": "美丽熙海岸全向打击",
+                                  "longitude": 110.574661,
+                                  "latitude": 19.164754,
+                                  "type": "omni",
+                                  "effect": 3000,
+                                  "altitude": 100
+                              }
+                          ]
+                      },
+                      {
+                          "count": 1,
+                          "name": "协议破解",
+                          "data": [
+                              {
+                                  "id": "1090007001000149",
+                                  "name": "冬屿岛大酒店协议破解",
+                                  "longitude": 110.573793,
+                                  "latitude": 19.143397,
+                                  "type": "crack",
+                                  "effect": 3000,
+                                  "altitude": 20
+                              }
+                          ]
+                      },
+                      {
+                          "count": 1,
+                          "name": "视频",
+                          "data": [
+                              {
+                                  "id": "1090008001000155",
+                                  "name": "国宾馆五号楼光电",
+                                  "longitude": 110.556215,
+                                  "latitude": 19.13787,
+                                  "type": "video",
+                                  "effect": 1500,
+                                  "altitude": 20
+                              }
+                          ]
+                      },
+                      {
+                          "count": 0,
+                          "name": "诱导",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "周扫",
+                          "data": []
+                      },
+                      {
+                          "count": 0,
+                          "name": "转台",
+                          "data": []
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  "code": 0,
+  "msg": "success"
+}

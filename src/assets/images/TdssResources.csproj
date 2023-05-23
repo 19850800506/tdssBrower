@@ -1,0 +1,448 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Alarmbar\Background.png" />
+    <None Remove="Alarmbar\BackgroundItem.png" />
+    <None Remove="Alarmbar\Border.png" />
+    <None Remove="Alarmbar\HalfStart.png" />
+    <None Remove="Alarmbar\InvasionShield.png" />
+    <None Remove="Alarmbar\LightStart.png" />
+    <None Remove="Alarmbar\PlanBackground.png" />
+    <None Remove="Alarmbar\Start.png" />
+    <None Remove="Alarmbar\Uav.png" />
+    <None Remove="Common\First.png" />
+    <None Remove="Common\Last.png" />
+    <None Remove="Common\Next.png" />
+    <None Remove="Common\Previous.png" />
+    <None Remove="Component\Circular\Background.png" />
+    <None Remove="Component\Circular\ScanPointer.png" />
+    <None Remove="Component\Horizon\Background.png" />
+    <None Remove="Component\Horizon\Close.png" />
+    <None Remove="Component\Horizon\CloseHover.png" />
+    <None Remove="Component\Horizon\Log.png" />
+    <None Remove="Component\Horizon\Top.png" />
+    <None Remove="Component\Menu\SettingBack.png" />
+    <None Remove="Component\Menu\SettingTitle.png" />
+    <None Remove="Component\Monitor\DetectDefult.png" />
+    <None Remove="Component\Monitor\DirectDefult.png" />
+    <None Remove="Component\Monitor\DirectFault.png" />
+    <None Remove="Component\Monitor\DirectWarn.png" />
+    <None Remove="Component\Monitor\OmniDefult.png" />
+    <None Remove="Component\Monitor\OmniFault.png" />
+    <None Remove="Component\Monitor\OmniWarn.png" />
+    <None Remove="Component\Monitor\OtherDefult.png" />
+    <None Remove="Component\Monitor\OtherFault.png" />
+    <None Remove="Component\Monitor\OtherWarn.png" />
+    <None Remove="Component\Monitor\RadarDefult.png" />
+    <None Remove="Component\Monitor\RadarFault.png" />
+    <None Remove="Component\Monitor\RadarWarn.png" />
+    <None Remove="Component\Monitor\RadioDefult.png" />
+    <None Remove="Component\Monitor\RadioFault.png" />
+    <None Remove="Component\Monitor\RadioWarn.png" />
+    <None Remove="Component\Monitor\StrikeDefult.png" />
+    <None Remove="Component\Monitor\VideoDefult.png" />
+    <None Remove="Component\Monitor\VideoFault.png" />
+    <None Remove="Component\Monitor\VideoWarn.png" />
+    <None Remove="Component\Strike\AsHandDisable.png" />
+    <None Remove="Component\Strike\AsHandEnable.png" />
+    <None Remove="Login\Background.png" />
+    <None Remove="Login\LoginDefult.png" />
+    <None Remove="Login\LoginHighlight.png" />
+    <None Remove="Login\TextBackground.png" />
+    <None Remove="Login\TitleBackground.png" />
+    <None Remove="Statics\BackgoundHover.png" />
+    <None Remove="Statics\Background.png" />
+    <None Remove="Statics\CloumChart.png" />
+    <None Remove="Statics\CloumChartHover.png" />
+    <None Remove="Statics\Day.png" />
+    <None Remove="Statics\DayHover.png" />
+    <None Remove="Statics\Mounth.png" />
+    <None Remove="Statics\MounthHover.png" />
+    <None Remove="Statics\Year.png" />
+    <None Remove="Statics\YearHover.png" />
+    <None Remove="Statusbar\Background.png" />
+    <None Remove="Statusbar\ConnectState.gif" />
+    <None Remove="Statusbar\DirectStrikeIcon.gif" />
+    <None Remove="Statusbar\DirectStrikeState.gif" />
+    <None Remove="Statusbar\OmniStrikeIcon.gif" />
+    <None Remove="Statusbar\OmniStrikeState.gif" />
+    <None Remove="Statusbar\RadarBackgroud.gif" />
+    <None Remove="Statusbar\StrikeBackgroud.png" />
+    <None Remove="Component\Strike\AreaScanDisable.png" />
+    <None Remove="Component\Strike\AreaScanEnable.png" />
+    <None Remove="Component\Strike\ExpelChecked.png" />
+    <None Remove="Component\Strike\ExpelDefault.png" />
+    <None Remove="Component\Strike\ForcedChecked.png" />
+    <None Remove="Component\Strike\ForcedDefault.png" />
+    <None Remove="Titlebar\Background.png" />
+    <None Remove="Titlebar\Close.png" />
+    <None Remove="Titlebar\CloseHover.png" />
+    <None Remove="Titlebar\ContentHead.png" />
+    <None Remove="Titlebar\ContentTail.png" />
+    <None Remove="Titlebar\FontFamilyLcdD.TTF" />
+    <None Remove="Titlebar\Menu\AutoJammin.png" />
+    <None Remove="Titlebar\Menu\CaseClick.png" />
+    <None Remove="Titlebar\Menu\CaseDefult.png" />
+    <None Remove="Titlebar\Menu\PlanClick.png" />
+    <None Remove="Titlebar\Menu\PlanDefult.png" />
+    <None Remove="Titlebar\Menu\SettingClick.png" />
+    <None Remove="Titlebar\Menu\SettingDefult.png" />
+    <None Remove="Titlebar\Menu\UavClick.png" />
+    <None Remove="Titlebar\Menu\UavDefult.png" />
+    <None Remove="Titlebar\Plan\Checked.png" />
+    <None Remove="Titlebar\Plan\Header.png" />
+    <None Remove="Titlebar\Plan\HeaderBorder.png" />
+    <None Remove="Titlebar\Plan\ItemBackground.png" />
+    <None Remove="Titlebar\Plan\link.png" />
+    <None Remove="Titlebar\Plan\linkhover.png" />
+    <None Remove="Titlebar\Plan\ListBoxItemBackground.png" />
+    <None Remove="Titlebar\Plan\Title.png" />
+    <None Remove="Titlebar\Plan\TopBackground.png" />
+    <None Remove="Titlebar\Plan\UnChecked.png" />
+    <None Remove="Titlebar\Plan\WindowBorder.png" />
+    <None Remove="Titlebar\Setting\AttackType.png" />
+    <None Remove="Titlebar\Setting\BackgroundImg.png" />
+    <None Remove="Titlebar\Setting\CheckBoxOff.png" />
+    <None Remove="Titlebar\Setting\CheckBoxOn.png" />
+    <None Remove="Titlebar\Setting\Input.png" />
+    <None Remove="Titlebar\Setting\Scene.png" />
+    <None Remove="Titlebar\Setting\ViewBackgound.png" />
+    <None Remove="Titlebar\Setting\YGYX.png" />
+    <None Remove="Titlebar\TitlebarLogo.png" />
+    <None Remove="Titlebar\Weather\Cloud.png" />
+    <None Remove="Titlebar\Weather\Fog.png" />
+    <None Remove="Titlebar\Weather\HeavyRain.png" />
+    <None Remove="Titlebar\Weather\HeavySnow.png" />
+    <None Remove="Titlebar\Weather\LightRain.png" />
+    <None Remove="Titlebar\Weather\LightSnow.png" />
+    <None Remove="Titlebar\Weather\ModerateRain.png" />
+    <None Remove="Titlebar\Weather\ModerateSnow.png" />
+    <None Remove="Titlebar\Weather\Sleet.png" />
+    <None Remove="Titlebar\Weather\Smog.png" />
+    <None Remove="Titlebar\Weather\Sun.png" />
+    <None Remove="Titlebar\Weather\ThunderShower.png" />
+    <None Remove="Titlebar\Weather\Unknown.png" />
+    <None Remove="Titlebar\Weather\Wind.png" />
+    <None Remove="Titlebar\WhiteList\Remove.png" />
+    <None Remove="Titlebar\WhiteList\WhiteUAV.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Alarmbar\Background.png" />
+    <Resource Include="Alarmbar\BackgroundItem.png" />
+    <Resource Include="Alarmbar\Border.png" />
+    <Resource Include="Alarmbar\HalfStart.png" />
+    <Resource Include="Alarmbar\LightStart.png" />
+    <Resource Include="Alarmbar\PlanBackground.png" />
+    <Resource Include="Alarmbar\Start.png" />
+    <Resource Include="Alarmbar\Uav.png" />
+    <Resource Include="Common\First.png" />
+    <Resource Include="Common\Last.png" />
+    <Resource Include="Common\Next.png" />
+    <Resource Include="Common\Previous.png" />
+    <Resource Include="Component\Horizon\Background.png" />
+    <Resource Include="Component\Horizon\Close.png" />
+    <Resource Include="Component\Horizon\CloseHover.png" />
+    <Resource Include="Component\Horizon\Log.png" />
+    <Resource Include="Component\Horizon\Top.png" />
+    <Resource Include="Login\Background.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Login\LoginDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Login\LoginHighlight.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Login\TextBackground.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Login\TitleBackground.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Statics\BackgoundHover.png" />
+    <Resource Include="Statics\Background.png" />
+    <Resource Include="Statics\Year.png" />
+    <Resource Include="Statics\YearHover.png" />
+    <Resource Include="Statics\Day.png" />
+    <Resource Include="Statics\DayHover.png" />
+    <Resource Include="Statics\Mounth.png" />
+    <Resource Include="Statics\MounthHover.png" />
+    <Resource Include="Statics\CloumChart.png" />
+    <Resource Include="Statics\CloumChartHover.png" />
+    <Resource Include="Titlebar\Close.png" />
+    <Resource Include="Titlebar\CloseHover.png" />
+    <Resource Include="Titlebar\Setting\AutoJammin.png" />
+    <Resource Include="Titlebar\Plan\Checked.png" />
+    <Resource Include="Titlebar\Plan\Header.png" />
+    <Resource Include="Titlebar\Plan\HeaderBorder.png" />
+    <Resource Include="Titlebar\Plan\ItemBackground.png" />
+    <Resource Include="Titlebar\Plan\link.png" />
+    <Resource Include="Titlebar\Plan\linkhover.png" />
+    <Resource Include="Titlebar\Plan\ListBoxItemBackground.png" />
+    <Resource Include="Titlebar\Plan\Title.png" />
+    <Resource Include="Titlebar\Plan\TopBackground.png" />
+    <Resource Include="Titlebar\Plan\UnChecked.png" />
+    <Resource Include="Titlebar\Plan\WindowBorder.png" />
+    <Resource Include="Titlebar\Setting\BackgroundImg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Alarmbar\InvasionShield.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Circular\Background.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Circular\ScanPointer.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Menu\SettingBack.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Menu\SettingTitle.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\DetectDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\DirectDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\DirectFault.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\DirectWarn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\OmniDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\OmniFault.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\OmniWarn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\OtherDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\OtherFault.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\OtherWarn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\RadarDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\RadarFault.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\RadarWarn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\RadioDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\RadioFault.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\RadioWarn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\StrikeDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\VideoDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\VideoFault.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\VideoWarn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\AsHandDisable.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\AsHandEnable.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Statusbar\Background.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Monitor\Background.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioBackground.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioBlockLeft.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioBlockRight.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioBoder.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioDisturbLeft.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioDisturbRight.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioFindLeft.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioFindRight.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioNormalLeft.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadioNormalRight.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\AreaScanDisable.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\AreaScanEnable.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\DirectStrikeIcon.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\DirectStrikeState.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\ExpelDefault.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\ExpelChecked.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\ForcedDefault.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\ForcedChecked.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\OmniStrikeIcon.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\OmniStrikeState.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Detect\RadarBackground.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Component\Strike\StrikeStateBack.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Background.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\ContentHead.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\ContentTail.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\FontFamilyLcdD.TTF">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Menu\CaseDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Menu\PlanDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Menu\SettingDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Menu\UavDefult.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Setting\AttackType.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Setting\Input.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Setting\Scene.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Setting\ViewBackgound.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Setting\YGYX.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Setting\CheckBoxOff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Setting\CheckBoxOn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\TitlebarLogo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\Cloud.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\Fog.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\HeavyRain.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\HeavySnow.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\LightRain.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\LightSnow.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\ModerateRain.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\ModerateSnow.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\Sleet.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\Smog.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\Sun.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\ThunderShower.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\Unknown.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\Weather\Wind.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Titlebar\WhiteList\Remove.png" />
+    <Resource Include="Titlebar\WhiteList\WhiteUAV.png" />
+  </ItemGroup>
+
+</Project>
