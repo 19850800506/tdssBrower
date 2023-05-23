@@ -1,0 +1,90 @@
+﻿{
+  "map3d": {
+    "scene": {
+      "center": {
+        "lat": 30.69629216,
+        "lng": 117.89791646,
+        "alt": 34793935,
+        "heading": 6,
+        "pitch": -90
+      },
+      "scene3DOnly": false,
+      "shadows": false,
+      "removeDblClick": true,
+      "sceneMode": 3,
+      "showSun": true,
+      "showMoon": true,
+      "showSkyBox": true,
+      "showSkyAtmosphere": true,
+      "fog": true,
+      "fxaa": true,
+      "requestRenderMode": true,
+      "globe": {
+        "depthTestAgainstTerrain": false,
+        "baseColor": "#546a53",
+        "showGroundAtmosphere": true,
+        "enableLighting": false
+      },
+      "cameraController": {
+        "zoomFactor": 3.0,
+        "minimumZoomDistance": 1,
+        "maximumZoomDistance": 50000000,
+        "enableRotate": true,
+        "enableTranslate": true,
+        "enableTilt": true,
+        "enableZoom": true,
+        "enableCollisionDetection": true,
+        "minimumCollisionTerrainHeight": 15000
+      }
+    },
+    "control": {
+      "homeButton": false,
+      "baseLayerPicker": false,
+      "sceneModePicker": false,
+      "vrButton": false,
+      "fullscreenButton": false,
+      "navigationHelpButton": false,
+      "animation": false,
+      "timeline": false,
+      "infoBox": false,
+      "geocoder": false,
+      "selectionIndicator": false
+    },
+    "templateValues": {
+      "dataServer": "//data.mars3d.cn",
+      "gltfServerUrl": "//data.mars3d.cn/gltf"
+    },
+    
+    "basemaps": [
+    {
+      "id": "yinxiangMap",
+      "pid": 10,
+      "name": "天地图影像",
+      "icon": "/img/basemaps/tdt_img.png",
+      "type": "group",
+      "layers": [
+        { "name": "底图", "type": "tdt", "layer": "img_d" },
+        { "name": "注记", "type": "tdt", "layer": "img_z" }
+      ],
+      "show": true
+    },
+    {
+      "id": "xianhuaMap",
+      "pid": 10,
+      "name": "暗色底图",
+      "type": "gaode",
+      "icon": "/img/basemaps/blackMarble.png",
+      "layer": "vec",
+      "invertColor": true,
+      "filterColor": "#0c2a45",
+      "brightness": 0.6,
+      "contrast": 1.8,
+      "gamma": 0.3,
+      "hue": 1,
+      "saturation": 0,
+      "show": false
+    }
+    ],
+    "layers": []
+  }
+}

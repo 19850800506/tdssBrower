@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=logo2.png><script src=config.js></script><title>低空目标防御系统</title><link href=./static/js/Cesium/Widgets/widgets.css rel=stylesheet type=text/css><script src=./static/js/Cesium/Cesium.js></script><script src=./static/js/mars3d/turf.min.js></script><link rel=stylesheet href=./static/js/mars3d/mars3d.css><script src=./static/js/mars3d/mars3d.js></script><script src=./static/js/flv.min.js></script><script src=./static/js/flv.js></script><link href=static/css/chunk-0f16cdb2.c1a0c60e.css rel=prefetch><link href=static/css/chunk-0f8a37f6.ea99ea85.css rel=prefetch><link href=static/css/chunk-1114143e.4955ce76.css rel=prefetch><link href=static/js/chunk-0f16cdb2.c7dcc23c.js rel=prefetch><link href=static/js/chunk-0f8a37f6.76cbd730.js rel=prefetch><link href=static/js/chunk-1114143e.eccb6ca9.js rel=prefetch><link href=static/css/app.df01ffe1.css rel=preload as=style><link href=static/css/chunk-vendors.69616f2e.css rel=preload as=style><link href=static/js/app.4c790e4a.js rel=preload as=script><link href=static/js/chunk-vendors.6aa8f2e9.js rel=preload as=script><link href=static/css/chunk-vendors.69616f2e.css rel=stylesheet><link href=static/css/app.df01ffe1.css rel=stylesheet></head><script>let xhr = new XMLHttpRequest();
+  xhr.open("GET", "./config/layers.json", false);
+  xhr.send(null);
+
+  let res = JSON.parse(xhr.responseText)
+  window.mapLayers = res.layers
+
+  let xhrmap = new XMLHttpRequest();
+  xhrmap.open("GET", "./config/map3d.json", false);
+  xhrmap.send(null);
+  let resmap = JSON.parse(xhrmap.responseText)
+  window.map3d = resmap.map3d</script><body><noscript><strong>We're sorry but 低空目标防御平台 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.6aa8f2e9.js></script><script src=static/js/app.4c790e4a.js></script></body><style>/* 取消文字选中问题 */
+  * {
+    -webkit-touch-callout: none;
+    /*系统默认菜单被禁用*/
+    -webkit-user-select: none;
+    /*webkit浏览器*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    -moz-user-select: none;
+    /*火狐*/
+    -ms-user-select: none;
+    /*IE10*/
+    user-select: none;
+  }</style></html>
